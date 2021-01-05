@@ -1,0 +1,238 @@
+/* 具体商品标题 */
+.nav-bar{
+    position: relative;
+    height:63px;
+    width: 100%;
+    margin-top:0;
+    color: #616161;
+    border: 1px solid #ccc;
+}
+.container{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-bar h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #424242;
+    float: left;
+}
+.right{
+    float: right;
+    margin: 17px 0 0 0;
+}
+/* 具体商品详情 */
+.page-info{
+    width: 100%;
+}
+.product_box{
+    display: flex;
+    justify-content: left;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+.product_box .img-left{
+    width: 606px;
+    height: 740px;
+}
+
+.product-imglist img{
+    width: 560px;
+    height: 560px;
+    border: 0;
+}
+.product-con{
+    margin-left:20px;
+    -webkit-box-flex:1;
+    flex: 1;
+}
+.product-con h2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #212121;
+}
+.product-con .sale-desc{
+    display: block;
+    height: 21px;
+    width: 600px;
+    color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    line-height: 21px;
+}
+
+.product-con>span:nth-of-type(1){
+    margin-top: 8px;
+    display: inline-block;
+    color: #ff6700;
+    margin-bottom:0;
+}
+.product-con>span:nth-of-type(2){
+    display: inline-block;
+    color: #ff6700;
+    font-size: 18px;
+    line-height: 1;
+    padding: 12px 0 10px;
+}
+.line{
+    margin-top:12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.address-box{
+    width: 600px;
+    height: 104px;
+    margin: 20px 0;
+}
+.product-address{
+    padding: 30px 50px;
+    position: relative;
+    background:#fafafa;
+    border: 1px solid #e0e0e0;
+}
+.address-info span{
+    margin-right: 14px;
+}
+
+.buy-option{
+    width: 600px;
+    height: 81px;
+}
+.buy-option .title{
+    font-size: 18px;
+}
+.buy-option .color-choose{
+    width: 292px;
+    height: 42px;
+    margin-top:10px;
+    line-height: 42px;
+    position: relative;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    cursor: pointer;
+    float: left;
+    background-color: #fff;
+}
+
+.selected-list{
+    width: 600px;
+    height: 146px;
+    background:#f9f9fa;
+    padding: 30px;
+    margin:30px 0;
+}
+.selected-list ul li{
+    line-height: 30px;
+    color: #616161;
+}
+.selected-list ul li span{
+    float: right;
+}
+.selected-list .total-price{
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.btn-box{
+    width: 600px;
+    height: 54px;
+}
+.btn-box .btn-input{
+    display: block;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    background-color: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+.btn-box .btn-like{
+    display:block;
+    width: 140px;
+    height: 52px;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s;
+    font-size: 16px;
+    position: relative;
+    line-height: 52px;
+    float: left;
+    margin-left: 10px;
+    background-color: #b0b0b0;
+    color: #fff;
+}
+
+.sale-info{
+    width: 600px;
+    height: 83px;
+}
+.sale-info a{
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    cursor: default;
+    white-space: nowrap;
+    color: #b0b0b0;
+}
+.sale-info a i{
+    font-size: 20px;
+    display: inline-block;
+    font-style:normal;
+    vertical-align: middle;
+}
+.sale-info a em{
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.product-detail{
+    padding-bottom: 50px;
+    background-color: #ccc;
+}
+.product-detail img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 100px;
+    width: auto;
+}
+.c_title{
+    height: 77px;
+    line-height: 77px;
+}
+.container{
+    width: 1226px;
+    margin-right:auto;
+    margin-left: auto;
+}
+.c_title h3{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 1em 0;
+}
+.img-box{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.img-box img{
+    position: absolute;
+    left:50%;
+    top: 0;
+    transform: translate3d(-50%,0,0);
+    height: 100%;
+    margin-top: 20px;
+}
